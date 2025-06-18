@@ -1,15 +1,10 @@
-a=5
-print("type of a: ", type (a))
+num = 3 
+if num > 0:
+    print(num,'is a positive number' )
 
 
-b=2.5 
-print ("type of b: ", type (b))
+nun = -1 
+if nun > 0:
+    print(nun,'is a negitive number ')
 
-c="coding"
-print("type of c: ", type (c))
-
-d=True
-print("type of d: ", type (d))
-
-
-             
+    
