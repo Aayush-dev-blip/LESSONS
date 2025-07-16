@@ -1,18 +1,18 @@
-#There are five trees in Jack's front yard. He checks each tree to find out how tall it is in inches and writes the height on a sheet of paper. Jack's list: 98, 94, 41, 96, and 11. What is the average height of a tree in Jack's front yard?
-tree1 = 98
-tree2 = 94
-tree3 = 41
-tree4 = 96
-tree5 = 11
+a=5
+b=7
+c=7
 
+print(a !=b)
+print(b !=c)
+a = "github"
+b="coding"
+if a != b:
+    print(a,'and',b,'are diffrent')
+    a=4
+    b=5
 
-sum =tree1+tree2+tree3+tree4+tree5
-print('sum of all the trees is: ' , sum)
-
-average = sum/5
-
-print('the average of all the 5 trees is:' , average)
-
+    if (a==1) != (b==5):
+        print('hi')
 
 
 
