@@ -1,8 +1,12 @@
-age=int(input("enter your age:"))
-if age>=10:
-    if age<=20:
-        print("your age is: ",age," \n you are allowed to enter the class")
-    else:
-        print("You are age is:",age,"\n you are not allowed to enter the class")
-else:
-    print("you are age is:",age,"\n you are not eligible")
+rows = int(input("please enter the number of rows"))
+num = 1
+
+print("floyds triangle")
+
+for i in range(1, rows,+1):
+    for j in range(1, i +1):
+        print(num, end="")
+
+        num +=1
+
+        print()
