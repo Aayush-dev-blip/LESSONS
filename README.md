@@ -1,12 +1,20 @@
-rows = int(input("please enter the number of rows"))
-num = 1
+import turtle 
+turtle.Screen().bgcolor("orange")
+turtle.Screen().setup(300,400)
 
-print("floyds triangle")
+polygon = turtle.Turtle()
 
-for i in range(1, rows,+1):
-    for j in range(1, i +1):
-        print(num, end="")
 
-        num +=1
+num_sides = 6
+side_length = 70
 
-        print()
+angle = 360.0 / num_sides
+
+for i in range(num_sides):
+    polygon.forward(side_length)
+
+    polygon.right(angle)
+
+
+
+turtle.done()
