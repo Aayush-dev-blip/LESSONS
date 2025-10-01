@@ -1,20 +1,12 @@
-import turtle 
-turtle.Screen().bgcolor("orange")
-turtle.Screen().setup(300,400)
+num = 67
+flag = False 
 
-polygon = turtle.Turtle()
+for i in range (2, num):
+    if (num % i) == 0:
+        flag = True 
+    break
 
-
-num_sides = 6
-side_length = 70
-
-angle = 360.0 / num_sides
-
-for i in range(num_sides):
-    polygon.forward(side_length)
-
-    polygon.right(angle)
-
-
-
-turtle.done()
+if flag:
+    print(num, "is not a prime number")
+else:
+    print(num, "is a prime number")
